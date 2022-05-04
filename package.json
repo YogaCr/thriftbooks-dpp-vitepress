@@ -1,0 +1,22 @@
+{
+  "name": "thriftbook-landing-vitepress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "html-loader": "^3.1.0",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24",
+    "vitepress": "^0.22.3"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "lodash.debounce": "^4.0.8"
+  }
+}
