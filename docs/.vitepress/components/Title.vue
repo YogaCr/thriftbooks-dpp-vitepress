@@ -1,6 +1,6 @@
 <template>
-  <h1 :id="idElement" :class="customClass" class="text-center text-5xl uppercase font-extrabold">{{this.title}}</h1>
-  <h4 class="text-center mt-4 text-lg text-gray-500">{{this.subtitle}}</h4>
+  <h1 :id="idElement" :class="customClass" class="text-center text-5xl uppercase font-extrabold">{{title}}</h1>
+  <h4 class="text-center mt-4 text-lg text-gray-500">{{subtitle}}</h4>
 </template>
 
 <script>

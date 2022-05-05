@@ -1,5 +1,5 @@
 <template>
-  <div class="relative wrap overflow-hidden pt-10 md:p-10 h-full" :id="this.idElement">
+  <div class="relative wrap overflow-hidden pt-10 md:p-10 h-full" :id="idElement">
     <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border hidden md:block"
          style="left: 50%"></div>
 
@@ -12,9 +12,9 @@
       <CardTimeline v-on:click="this.openModal(index)" :img-path="data.imgPath" :title="data.title"/>
     </div>
   </div>
-  <Modal ref="modal-card" :body-modal="this.bodyModal">
+  <Modal ref="modal-card" :body-modal="bodyModal">
     <template v-slot:header>
-      <b>{{this.titleModal}}</b>
+      <b>{{titleModal}}</b>
     </template>
   </Modal>
 </template>

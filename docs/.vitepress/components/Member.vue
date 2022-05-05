@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-3 gap-4 mt-8">
-    <div v-for="member in this.datas" class="flex flex-col items-center justify-center">
+    <div v-for="member in datas" class="flex flex-col items-center justify-center">
       <img
           class="object-scale-down rounded-full"
           :src="member.imgPath"

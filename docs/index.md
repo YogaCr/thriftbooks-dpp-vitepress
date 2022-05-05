@@ -5,65 +5,69 @@ import Title from "./.vitepress/components/Title.vue"
 import Timeline from "./.vitepress/components/Timeline.vue"
 import Member from "./.vitepress/components/Member.vue"
 
-import needfinding from './contents/modal/needfinding.html?raw'
-import pov from './contents/modal/pov.html?raw'
-import conceptVideo from './contents/modal/concept-video.html?raw'
-import lowFi from './contents/modal/low-fi.html?raw'
-import medFi from './contents/modal/med-fi.html?raw'
-import heuristic from './contents/modal/heuristic.html?raw'
-import comingSoon from './contents/modal/coming-soon.html?raw'
+import Needfinding from './contents/modal/needfinding.html?raw'
+import Pov from './contents/modal/pov.html?raw'
+import ConceptVideo from './contents/modal/concept-video.html?raw'
+import LowFi from './contents/modal/low-fi.html?raw'
+import MedFi from './contents/modal/med-fi.html?raw'
+import Heuristic from './contents/modal/heuristic.html?raw'
+import ComingSoon from './contents/modal/coming-soon.html?raw'
 
+import yogaImg from './assets/yoga.png'
+import hilalImg from './assets/hilal.png'
+import andriImg from './assets/andrian.png'
+import logoImg from './assets/logo.png'
 const members=[
     {
         name:"Yoga Cahya Romadhon",
         subtitle:"05211940000001",
-        imgPath:"../../assets/yoga.png",
+        imgPath:yogaImg,
     },
     {
         name:"M. Dwiki Andrian",
         subtitle:"05211940000012",
-        imgPath:"../../assets/andrian.png",
+        imgPath:andriImg,
     },
     {
         name:"Ahmad Hilal M.",
         subtitle:"05211940000041",
-        imgPath:"../../assets/hilal.png",
+        imgPath:hilalImg,
     },
 ]
 
 const timelineDatas=[
     {
         title:"Needfinding",
-        imgPath:"../../assets/logo.png",
-        modalBody:needfinding
+        imgPath:logoImg,
+        modalBody:Needfinding
     },{
         title:"Point of View & Experience Prototypes",
-        imgPath:"../../assets/logo.png",
-        modalBody:pov
+        imgPath:logoImg,
+        modalBody:Pov
     },{
         title:"Video Konsep",
-        imgPath:"../../assets/logo.png",
-        modalBody:conceptVideo
+        imgPath:logoImg,
+        modalBody:ConceptVideo
     },{
         title:"Low-fidelity Prototype & Test",
-        imgPath:"../../assets/logo.png",
-        modalBody:lowFi
+        imgPath:logoImg,
+        modalBody:LowFi
     },{
         title:"Medium-fidelity Prototype",
-        imgPath:"../../assets/logo.png",
-        modalBody:medFi
+        imgPath:logoImg,
+        modalBody:MedFi
     },{
         title:"Group Heuristic Evaluation",
-        imgPath:"../../assets/logo.png",
-        modalBody:heuristic
+        imgPath:logoImg,
+        modalBody:Heuristic
     },{
         title:"Hi-fidelity Prototype",
-        imgPath:"../../assets/logo.png",
-        modalBody:comingSoon
+        imgPath:logoImg,
+        modalBody:ComingSoon
     },{
         title:"Poster & Pitch Slide",
-        imgPath:"../../assets/logo.png",
-        modalBody:comingSoon
+        imgPath:logoImg,
+        modalBody:ComingSoon
     }
 ]
 </script>
@@ -72,7 +76,7 @@ const timelineDatas=[
 subtitle="Thriftbooks adalah aplikasi yang memfasilitasi pengguna untuk mencari buku (sewa atau jual beli) serta pengguna dapat meminta rekomendasi terkait buku.
 
 Kami berusaha mengatasi masalah pengguna (mis. mahasiswa) dalam mencari buku yang dibutuhkan."
-img-path="../../assets/logo.png"/>
+:img-path="logoImg"/>
 
 
 <Title id-element="features" title="Fitur" subtitle="Apa saja yang bisa dilakukan di Thriftbooks?" customClass="pt-16"/>
@@ -83,4 +87,4 @@ img-path="../../assets/logo.png"/>
 <Timeline :timelineDatas="timelineDatas"/>
 
 <Title id-element="members" title="Anggota" subtitle="Berikut adalah anggota yang berpartisipasi dalam pengembangan Thriftbooks" customClass="pt-16"/>
-<Member :datas="this.members"/>
+<Member :datas="members"/>

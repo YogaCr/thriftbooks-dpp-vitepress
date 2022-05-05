@@ -1,6 +1,6 @@
 <template>
   <transition name="modal-fade">
-    <div class="modal-backdrop z-50" :class="this.isOpen?'flex':'hidden'">
+    <div class="modal-backdrop z-50" :class="isOpen?'flex':'hidden'">
       <div class="modal shadow-xl rounded-lg p-2 w-8/12"
            role="dialog"
            aria-labelledby="modalTitle"
@@ -27,7 +27,7 @@
             class="modal-body"
             id="modalDescription"
         >
-          <div v-html="this.bodyModal"></div>
+          <div v-html="bodyModal"></div>
         </section>
       </div>
     </div>

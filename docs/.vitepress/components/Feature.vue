@@ -1,14 +1,14 @@
 <template>
-  <div class="relative" :id="this.idElement">
-    <center class="absolute w-full -z-50">
-      <div class="loading hidden md:flex">
+  <div class="relative" :id="idElement">
+    <div class="absolute inset-0 -z-50">
+      <div class="loading hidden md:flex relative m-auto">
         <span></span>
         <span></span>
         <span></span>
         <span></span>
         <span></span>
       </div>
-    </center>
+    </div>
     <div class="grid grid-rows-4 md:grid-rows-2 grid-cols-1 md:grid-cols-3 mt-8 grid-flow-col gap-4">
       <div class="col-span-1">
         <h3 class="md:text-right mt-8 text-xl font-extrabold">Rekomendasi Buku</h3>
@@ -42,7 +42,6 @@ export default {
 
 <style scoped>
 .loading {
-  position: relative;
   width: 50vw;
   height: 50vw;
   align-items: center;
