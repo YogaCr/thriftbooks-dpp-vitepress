@@ -5,4 +5,11 @@ module.exports = {
         './docs/.vitepress/**/*.ts',
         './docs/.vitepress/**/*.html',
     ],
+    theme: {
+        extend:{
+            colors: {
+                'orange': '#f7842b'
+            }
+        }
+    }
 }

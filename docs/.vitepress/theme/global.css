@@ -2,3 +2,7 @@ html {
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
+
+.bg-orange {
+    background: rgb(247 132 43);
+}

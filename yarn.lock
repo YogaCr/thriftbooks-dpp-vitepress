@@ -571,7 +571,7 @@
   "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001335.tgz"
   "version" "1.0.30001335"
 
-"chokidar@^3.5.3":
+"chokidar@^3.5.3", "chokidar@>=3.0.0 <4.0.0":
   "integrity" "sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw=="
   "resolved" "https://registry.npmjs.org/chokidar/-/chokidar-3.5.3.tgz"
   "version" "3.5.3"
@@ -857,6 +857,11 @@
     "param-case" "^3.0.4"
     "relateurl" "^0.2.7"
     "terser" "^5.10.0"
+
+"immutable@^4.0.0":
+  "integrity" "sha512-zIE9hX70qew5qTUjSS7wi1iwj/l7+m54KWU247nhM3v806UdGj1yDndXj+IOYxxtW9zyLI+xqFNZjTuDaLUqFw=="
+  "resolved" "https://registry.npmjs.org/immutable/-/immutable-4.0.0.tgz"
+  "version" "4.0.0"
 
 "is-binary-path@~2.1.0":
   "integrity" "sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw=="
@@ -1177,6 +1182,15 @@
   "resolved" "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz"
   "version" "5.2.1"
 
+"sass@*", "sass@^1.51.0":
+  "integrity" "sha512-haGdpTgywJTvHC2b91GSq+clTKGbtkkZmVAb82jZQN/wTy6qs8DdFm2lhEQbEwrY0QDRgSQ3xDurqM977C3noA=="
+  "resolved" "https://registry.npmjs.org/sass/-/sass-1.51.0.tgz"
+  "version" "1.51.0"
+  dependencies:
+    "chokidar" ">=3.0.0 <4.0.0"
+    "immutable" "^4.0.0"
+    "source-map-js" ">=0.6.2 <2.0.0"
+
 "schema-utils@^3.1.0", "schema-utils@^3.1.1":
   "integrity" "sha512-Y5PQxS4ITlC+EahLuXaY86TXfR7Dc5lw294alXOq86JAHCihAIZfqv8nNCWvaEJvaC51uN9hbLGeV0cFBdH+Fw=="
   "resolved" "https://registry.npmjs.org/schema-utils/-/schema-utils-3.1.1.tgz"
@@ -1193,7 +1207,7 @@
   dependencies:
     "randombytes" "^2.1.0"
 
-"source-map-js@^1.0.2":
+"source-map-js@^1.0.2", "source-map-js@>=0.6.2 <2.0.0":
   "integrity" "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw=="
   "resolved" "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
   "version" "1.0.2"
@@ -1343,7 +1357,12 @@
     "vite" "^2.8.1"
     "vue" "^3.2.31"
 
-"vue@^3.2.25", "vue@^3.2.31", "vue@3.2.33":
+"vue-writer@^1.2.0":
+  "integrity" "sha512-EtunS6F12cyhXkKgIKDQxr6QEJpSmj4rUSqE149XZN5vbPQuX7PIbWovA1oPvGYUxrlq5HHobdZAzOzSeNAG7g=="
+  "resolved" "https://registry.npmjs.org/vue-writer/-/vue-writer-1.2.0.tgz"
+  "version" "1.2.0"
+
+"vue@^3.0.5", "vue@^3.2.25", "vue@^3.2.31", "vue@3.2.33":
   "integrity" "sha512-si1ExAlDUrLSIg/V7D/GgA4twJwfsfgG+t9w10z38HhL/HA07132pUQ2KuwAo8qbCyMJ9e6OqrmWrOCr+jW7ZQ=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.33.tgz"
   "version" "3.2.33"

@@ -7,6 +7,7 @@
     "autoprefixer": "^10.4.7",
     "html-loader": "^3.1.0",
     "postcss": "^8.4.13",
+    "sass": "^1.51.0",
     "tailwindcss": "^3.0.24",
     "vitepress": "^0.22.3"
   },
@@ -17,6 +18,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.21",
-    "lodash.debounce": "^4.0.8"
+    "lodash.debounce": "^4.0.8",
+    "vue-writer": "^1.2.0"
   }
 }

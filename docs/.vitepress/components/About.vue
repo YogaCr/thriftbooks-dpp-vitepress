@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4" :id="idElement">
+  <div class="grid grid-cols-1 pt-8 md:grid-cols-2 gap-4" :id="idElement">
     <div class="flex items-center justify-center">
       <img class="object-scale-down h-90 w-96" :src="imgPath" alt="Logo">
     </div>
