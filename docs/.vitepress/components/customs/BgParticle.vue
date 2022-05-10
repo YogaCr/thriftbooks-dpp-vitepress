@@ -42,6 +42,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@use 'sass:math';
 .particle-container {
   background: #ecf3f3;
 }
@@ -61,7 +62,7 @@ export default {
   .particle:nth-child(#{$i}) {
     animation: particle-animation-#{$i} 60s infinite;
     $size: random(5) + 5 + px;
-    opacity: random(100)/100;
+    opacity: math.div(random(100),100);
     height: $size;
     width: $size;
     animation-delay: -$i * .2s;

@@ -51,9 +51,11 @@ export default {
   methods: {
     open() {
       this.isOpen = true
+      document.querySelector("body").classList.add("overflow-hidden")
     },
     close() {
       this.isOpen = false
+      document.querySelector("body").classList.remove("overflow-hidden")
     },
   },
 };

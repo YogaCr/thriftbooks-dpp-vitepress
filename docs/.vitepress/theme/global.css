@@ -3,6 +3,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body .modal-backdrop.flex{
+    overflow: hidden;
+}
+
 .bg-orange {
     background: rgb(247 132 43);
 }
