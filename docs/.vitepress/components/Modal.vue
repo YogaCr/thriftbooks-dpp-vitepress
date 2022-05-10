@@ -1,7 +1,7 @@
 <template>
   <transition name="modal-fade">
     <div class="modal-backdrop z-50" :class="isOpen?'flex':'hidden'">
-      <div class="modal shadow-xl rounded-lg p-2 w-8/12"
+      <div class="modal shadow-xl rounded-lg p-2 w-8/12 h-5/6"
            role="dialog"
            aria-labelledby="modalTitle"
            aria-describedby="modalDescription"
@@ -24,7 +24,7 @@
         </header>
 
         <section
-            class="modal-body"
+            class="modal-body m-2"
             id="modalDescription"
         >
           <div v-html="bodyModal"></div>
@@ -100,6 +100,7 @@ export default {
 .modal-body {
   position: relative;
   padding: 20px 10px;
+  overflow: auto;
 }
 
 .btn-close {
@@ -127,5 +128,19 @@ export default {
 .modal-fade-enter-active,
 .modal-fade-leave-active {
   transition: opacity .5s ease;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
 </style>
