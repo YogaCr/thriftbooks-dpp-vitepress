@@ -11,6 +11,8 @@ import ConceptVideo from './contents/modal/concept-video.html?raw'
 import LowFi from './contents/modal/low-fi.html?raw'
 import MedFi from './contents/modal/med-fi.html?raw'
 import Heuristic from './contents/modal/heuristic.html?raw'
+import Hifi from './contents/modal/hi-fi.html?raw'
+import Pitch from './contents/modal/pitch.html?raw'
 import ComingSoon from './contents/modal/coming-soon.html?raw'
 
 import yogaImg from './assets/yoga.png'
@@ -63,11 +65,11 @@ const timelineDatas=[
     },{
         title:"Hi-fidelity Prototype",
         imgPath:logoImg,
-        modalBody:ComingSoon
+        modalBody:Hifi
     },{
         title:"Poster & Pitch Slide",
         imgPath:logoImg,
-        modalBody:ComingSoon
+        modalBody:Pitch
     }
 ]
 </script>

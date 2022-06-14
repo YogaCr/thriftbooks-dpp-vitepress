@@ -58,6 +58,11 @@
                 href="#members" v-on:click.prevent="scroll('#members')"
             >Anggota</a
             >
+            <a
+                class="hover:scale-110 px-4 py-2 mt-2 text-sm font-semibold bg-transparent border-2 border-black rounded-full dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 focus:bg-gray-200 focus:outline-none focus:shadow-outline transition-all duration-300"
+                href="https://intip.in/HiFiC7/" target="_blank"
+            >Coba Prototipe</a
+            >
           </nav>
         </div>
       </div>
