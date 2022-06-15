@@ -4,7 +4,7 @@ Landing page ini digunakan untuk menyimpan dokumentasi pelaksanaan mata kuliah D
 
 Dikembangkan menggunakan [Vitepress](https://vitepress.vuejs.org/).
 
-Web dapat diakses di [https://thriftbooks-ddp-c7.netlify.app/](https://thriftbooks-dpp-c7.netlify.app/).
+Web dapat diakses di [https://thriftbooks-dpp-c7.netlify.app/](https://thriftbooks-dpp-c7.netlify.app/).
 
 ### Disclaimer
 
